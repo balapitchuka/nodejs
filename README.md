@@ -7,6 +7,7 @@
 1.Installation on linux machine
 
 ```
+when we install node it shifts with node binary, npm binary and npx binary.
   url : https://www.digitalocean.com/community/tutorials/how-to-install-node-js-on-ubuntu-18-04
 
   installing using node version manager(NVM):
