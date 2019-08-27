@@ -15,3 +15,5 @@
     url : https://github.com/nvm-sh/nvm
   
 ```
+
+nodejs uses commonjs for module syntax.
