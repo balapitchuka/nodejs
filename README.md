@@ -15,7 +15,7 @@
     url : https://github.com/nvm-sh/nvm
   
 ```
-
+```
 nodejs uses commonjs module system(by default built into nodejs).
 
 other module systems:
@@ -30,7 +30,8 @@ const add = (num1, num2) => {}
 const nonPublic = () => {}
 
 //module is a global object in nodejs
-module.exports = add // if you want to export only one thing
+module.exports = add // if you want to export only one thing also known as default export.
 (or)
 //exporting multiple things
-module.exports = {add, value : 1, thing(){ } }
+module.exports = {add, value : 1, thing(){ } }    // named export
+```
