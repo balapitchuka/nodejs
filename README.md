@@ -16,4 +16,4 @@
   
 ```
 
-nodejs uses commonjs for module syntax.
+nodejs uses commonjs for module syntax(by default built into nodejs).
