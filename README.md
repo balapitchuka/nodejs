@@ -19,8 +19,8 @@
 nodejs uses commonjs module system(by default built into nodejs).
 
 other module systems:
-commonjs
-amd
-es6 modules
+commonjs - node uses by default
+amd - use Requirejs
+es6 modules (ESM- ecmascript script modules)
 
-
+NOTE : since ECMASCRIPT introduced ESM, nodejs will eventually move to using esm module system in future.
