@@ -16,4 +16,11 @@
   
 ```
 
-nodejs uses commonjs for module syntax(by default built into nodejs).
+nodejs uses commonjs module system(by default built into nodejs).
+
+other module systems:
+commonjs
+amd
+es6 modules
+
+
