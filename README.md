@@ -34,4 +34,8 @@ module.exports = add // if you want to export only one thing also known as defau
 (or)
 //exporting multiple things
 module.exports = {add, value : 1, thing(){ } }    // named export
+
+
+-- we have to explicitly export what ever code we will be using in other modules.
+-- by default nothing is exported so hence we have to explicitly export everything needed to use in other modules.
 ```
