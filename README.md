@@ -1,8 +1,9 @@
 # Node
 
+- NPM manages all the Node.js packages
+- NPX executes the Node.js packages
+
 # 1. Installation
-
-
 
 ## 1.Installation on linux machine
 
@@ -33,6 +34,12 @@ nvm alias default 6.9.2
 // switch version of node
 nvm use 6.9.1
 ```
+
+// update npm to latest
+sudo npm install npm@latest -g
+
+// install react cli
+npm install -g create-react-app
 
 
 ```
