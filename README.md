@@ -1,10 +1,10 @@
 # Node
 
-1. Installation
+# 1. Installation
 
 
 
-1.Installation on linux machine
+## 1.Installation on linux machine
 
 ```
 when we install node it shifts with node binary, npm binary and npx binary.
@@ -16,6 +16,25 @@ when we install node it shifts with node binary, npm binary and npx binary.
     url : https://github.com/nvm-sh/nvm
   
 ```
+## Useful node commands
+```javascript
+// check version
+node -v || node --version
+
+// list installed versions of node (via nvm)
+nvm ls
+
+// install specific version of node
+nvm install 6.9.2
+
+// set default version of node
+nvm alias default 6.9.2
+
+// switch version of node
+nvm use 6.9.1
+```
+
+
 ```
 nodejs uses commonjs module system(by default built into nodejs).
 
